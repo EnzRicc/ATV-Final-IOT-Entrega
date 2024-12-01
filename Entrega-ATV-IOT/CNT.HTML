@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AREAS.CSS">
+    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="styles_dropdown.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="conteudo">
+            <!-- Aqui está todo o conteúdo existente -->
+            <section class="Cabeçalho">
+            <header>
+                <br>
+                <b>
+                Bem vindo à Área de Ciências da Natureza
+                </b>
+                <br>
+                <br>
+            </header>
+        </section>
+
+    <section class="Fisica">
+        <div class="dropdown">
+            <button class="dropbtn">Física</button>
+            <div class="dropdown-content">
+                <div id="carousel-fisica" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="BAUX.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="BAUX1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-fisica')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-fisica')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Quimica">
+        <div class="dropdown">
+            <button class="dropbtn">Química</button>
+            <div class="dropdown-content">
+                <div id="carousel-quimica" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="ATOMO.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="ATOMO1.jpg" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-quimica')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-quimica')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Biologia">
+        <div class="dropdown">
+            <button class="dropbtn">Biologia</button>
+            <div class="dropdown-content">
+                <div id="carousel-biologia" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Plantas.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="PLANTAS1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-biologia')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-biologia')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="Botao_Voltar">
+        <a class="txt" href="HUB.HTML"> Voltar</a>
+    </div>
+    <section class="footer">
+        <footer>
+            <b>
+                © 2024 Enzo Ricci Bonatto Batista Lima. Todos os direitos reservados.
+            </b>
+        </footer>
+    </section>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

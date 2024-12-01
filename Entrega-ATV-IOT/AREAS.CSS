@@ -1,0 +1,214 @@
+.Cabeçalho{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 6em;
+    background-color: rgb(100, 100, 100); /* Cor inicial */
+    border: 3px solid rgb(80, 80, 80); /* Cor da borda */
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+    transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+    animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+
+.Botao_Voltar{
+    border: 2px black; 
+    border-radius: 15px; 
+    text-decoration: none;                
+    color: inherit; 
+    font-family: 'Poppins', sans-serif; 
+    position: relative; 
+    left: 31em;
+    bottom: -1em;
+    padding: 12px 0;
+    width: 6%;
+    text-align: center;
+    background-color: rgb(100, 100, 100); /* Cor inicial */
+    border: 2px solid rgb(80, 80, 80); /* Cor da borda */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+    transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+    animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+
+.txt{
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Usa a cor do texto do elemento pai */
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 40px;
+    margin-top: 275px;
+    background-color: rgb(100, 100, 100); /* Cor inicial */
+    border: 3px solid rgb(80, 80, 80); /* Cor da borda */
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+    transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+    animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+
+@keyframes changeColor {
+    0% { background-color: rgb(100, 100, 100); }
+    25% { background-color: rgb(200, 100, 100); }
+    50% { background-color: rgb(100, 200, 100); }
+    75% { background-color: rgb(100, 100, 200); }
+    100% { background-color: rgb(100, 100, 100); }
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; /* Alinha os botões verticalmente */
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Espaço ao redor da tela */
+}
+ 
+.dropdown {
+    position: relative;
+    left: 21em;
+    display: block;
+    margin: 40px 0; /* Espaçamento vertical entre os botões */
+    width: 200px; /* Tamanho fixo para evitar colapsos */
+    text-align: center; /* Centraliza o texto no botão */
+}
+ 
+/* Estilo do background animado */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Mantém o background atrás do conteúdo */
+    overflow: hidden;
+}
+ 
+.background-animation canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* O background não interfere nos cliques */
+}
+ 
+.conteudo {
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fique acima do background */
+    padding: 20px;
+}
+ 
+/* Estilo do overlay do popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Fundo escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Fica acima de tudo */
+}
+
+/* Conteúdo do popup */
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.popup-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.popup-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.popup-content button {
+    background: grey;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s;
+}
+
+.popup-content button:hover {
+    background: #333;
+}
+
+.Quemsou{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 40px;
+    margin-top: 0px;
+    background-color: rgb(100, 100, 100); /* Cor inicial */
+    border: 3px solid rgb(80, 80, 80); /* Cor da borda */
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+    transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+    animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+
+.Reflexao{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 40px;
+    margin-top: 100px;
+    background-color: rgb(100, 100, 100); /* Cor inicial */
+    border: 3px solid rgb(80, 80, 80); /* Cor da borda */
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+    transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+    animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+
+.Cabeçalho1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 3em;
+    background-color: rgb(100, 100, 100); /* Cor inicial */
+    border: 3px solid rgb(80, 80, 80); /* Cor da borda */
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+    transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+    animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+/*Novo site*/
+.box{
+    padding: 50px 400px;
+    background-color: #333;
+    color: white;
+    opacity: 40%;
+}
+
+.box:hover{
+    
+}
+.txt1{
+    font-weight: 900;
+    font-family:'Poppins', sans-serif;
+}
+

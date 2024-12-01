@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AREAS.CSS">
+    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="styles_dropdown.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="conteudo">
+            <!-- Aqui está todo o conteúdo existente -->
+            <section class="Cabeçalho">
+            <header>
+                <br>
+                <b>
+                Bem vindo à Área de Linguagens
+                </b>
+                <br>
+                <br>
+            </header>
+        </section>
+
+    <section class="Portugues">
+        <div class="dropdown">
+            <button class="dropbtn">Português</button>
+            <div class="dropdown-content">
+                <div id="carousel-portugues" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Cartomante.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Cartomante1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-portugues')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-portugues')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Ingles">
+        <div class="dropdown">
+            <button class="dropbtn">Inglês</button>
+            <div class="dropdown-content">
+                <div id="carousel-ingles" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="AKAJE.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="AKAJE1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-ingles')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-ingles')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Artes">
+        <div class="dropdown">
+            <button class="dropbtn">Artes</button>
+            <div class="dropdown-content">
+                <div id="carousel-artes" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="DADA.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="DADA1.jpg" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-artes')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-artes')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Ed">
+        <div class="dropdown">
+            <button class="dropbtn">Educação Física</button>
+            <div class="dropdown-content">
+                <div id="carousel-ed" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="MICAS.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="MICAS1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-ed')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-ed')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="Botao_Voltar">
+        <a class="txt" href="HUB.HTML"> Voltar</a>
+    </div>
+    <section class="footer">
+        <footer>
+            <b>
+                © 2024 Enzo Ricci Bonatto Batista Lima. Todos os direitos reservados.
+            </b>
+        </footer>
+    </section>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AREAS.CSS">
+    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="styles_dropdown.css">
+
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="conteudo">
+            <!-- Aqui está todo o conteúdo existente -->
+            <section class="Cabeçalho">
+            <header>
+                <br>
+                <b>
+                Bem vindo à Área de Matemática
+                </b>
+                <br>
+                <br>
+            </header>
+        </section>
+
+    <section class="Matematica">
+        <div class="dropdown">
+            <button class="dropbtn">Matemática</button>
+            <div class="dropdown-content">
+                <div id="carousel-matematica" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="TABELA.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="TABELA1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-matematica')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-matematica')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="Botao_Voltar">
+        <a class="txt" href="HUB.HTML"> Voltar</a>
+    </div>
+    <section class="footer">
+        <footer>
+            <b>
+                © 2024 Enzo Ricci Bonatto Batista Lima. Todos os direitos reservados.
+            </b>
+        </footer>
+    </section>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

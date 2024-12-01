@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AREAS.CSS">
+    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="styles_dropdown.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="conteudo">
+            <!-- Aqui está todo o conteúdo existente -->
+            <section class="Cabeçalho">
+                <header>
+                    <br>
+                    <b>
+                    Bem vindo à Área de Ciências Humanas
+                    </b>
+                    <br>
+                    <br>
+                </header>
+            </section>
+    <section class="História"></section>
+    <div class="dropdown">
+        <button class="dropbtn">História</button>
+        <div class="dropdown-content">
+            <div id="carousel-historia" class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Ditadura.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Ditadura1.png" alt="Imagem 2">
+                    </div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1, 'carousel-historia')">❮</button>
+                <button class="next" onclick="moveSlide(1, 'carousel-historia')">❯</button>
+            </div>
+        </div>
+    </div>
+ 
+    <section class="Geografia">
+        <div class="dropdown">
+            <button class="dropbtn">Geografia</button>
+            <div class="dropdown-content">
+                <div id="carousel-geografia" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="WAR.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="WAR1.png" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="WAR2.webp" alt="Imagem 3">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-geografia')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-geografia')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="Filosofia">
+        <div class="dropdown">
+            <button class="dropbtn">Filosofia</button>
+            <div class="dropdown-content">
+                <div id="carousel-filosofia" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="MILL.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="MILL1.png" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="MILL2.png" alt="Imagem 3">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-filosofia')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-filosofia')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="Sociologia">
+        <div class="dropdown">
+            <button class="dropbtn">Sociologia</button>
+            <div class="dropdown-content">
+                <div id="carousel-sociologia" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Iluminismo.png" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Iluminismo1.png" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 'carousel-sociologia')">❮</button>
+                    <button class="next" onclick="moveSlide(1, 'carousel-sociologia')">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="Botao_Voltar">
+        <a class="txt" href="HUB.HTML"> Voltar</a>
+    </div>
+    <section class="footer">
+        <footer>
+            <b>
+                © 2024 Enzo Ricci Bonatto Batista Lima. Todos os direitos reservados.
+            </b>
+        </footer>
+    </section>
+        <script src="script.js"></script>
+        
+    </div>
+</body>
+</html>
+
+

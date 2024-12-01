@@ -1,0 +1,370 @@
+body{
+    background-color: antiquewhite;
+}
+
+.Cabeçalho{
+    background-color: antiquewhite;
+    border-bottom: 4px solid black;
+    box-shadow: 5px solid black;
+    justify-content: left;
+    text-align: left;
+    padding: 36px;
+    border-radius: 0px;
+    margin-bottom: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ATV{
+    width: 100%;
+    height: 40%;
+}
+
+.sena{
+    position: relative;
+    left: 88.8em;
+    bottom: 9.1em;
+    width: 10%;
+    height: 11%;
+}
+
+
+.titulo{
+    position: relative;
+    left: 9em;
+    bottom: 6em;
+    width: 25%;
+    padding: 30px 12px;
+    background-color: bisque;
+    box-shadow: 0 16px 32px black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+
+.titulo:hover{
+    box-shadow: 2px solid black;
+    transition: 1.3s ease-in-out;
+    transform: scale(1.2) rotate(-1.3deg);
+}
+
+.Título1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+}
+
+.Gost{
+    position: relative;
+    left: 48em;
+    bottom: 10em;
+    width: 31%;
+    padding: 30px 12px;
+    background-color: bisque;
+    box-shadow: 0 16px 32px black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+
+.Gost:hover{
+    box-shadow: 2px solid black;
+    transition: 1.3s ease-in-out;
+    transform: scale(1.2) rotate(1.3deg);
+}
+.L1{
+    font-size: x-large;
+}
+
+.L2{
+    font-size: large;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.L3{
+    font-size: medium;
+    text-align: start;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.Quadra{
+    position: relative;
+    bottom: 9em;
+    left: 3em;
+    width: 38%;
+    padding: 30px 25px;
+    background-color: bisque;
+    box-shadow: 0 16px 32px black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+
+.Quadra1{
+    position: relative;
+    bottom: 11em;
+    left: 48em;
+    width: 30%;
+    padding: 35px 15px;
+    background-color: bisque;
+    box-shadow: 0 16px 32px black;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.7s ease-in-out;
+}
+
+.Quadra:hover{
+    box-shadow: 2px solid black;
+    transition: 1.3s ease-in-out;
+    transform: scale(1.09) rotate(-1.3deg);
+}
+
+.Quadra1:hover{
+    box-shadow: 2px solid black;
+    transition: 1.3s ease-in-out;
+    transform: scale(1.09) rotate(1.3deg);
+}
+
+a{
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Usa a cor do texto do elemento pai */
+}
+.Título{
+    font-size: x-large;
+}
+
+.Introduçao{
+    margin-bottom: 2em;
+}
+
+.Areas{
+    position: fixed;
+    left: 95em;
+    bottom: 39em;
+    display: grid;
+    background-color: beige;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+    margin: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+
+.Areas1{
+    position: fixed;
+    left: 95em;
+    bottom: 36em;
+    display: grid;
+    background-color: beige;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+    margin: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+.Areas2{
+    position: fixed;
+    left: 95em;
+    bottom: 33em;
+    display: grid;
+    background-color: beige;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+    margin: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+.Areas3{
+    position: fixed;
+    left: 95em;
+    bottom: 30em;
+    display: grid;
+    background-color: beige;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+    margin: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+.Areas4{
+    position: fixed;
+    left: 95em;
+    bottom: 27em;
+    display: grid;
+    background-color: beige;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+    margin: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+    
+}
+.Areas:hover{
+    box-shadow: 2px solid black;
+    transition: all 1.3s ease;
+    transform: scale(1.1);
+}
+.Areas1:hover{
+    box-shadow: 2px solid black;
+    transition: all 1.3s ease;
+    transform: scale(1.1);
+}
+.Areas2:hover{
+    box-shadow: 2px solid black;
+    transition: all 1.3s ease;
+    transform: scale(1.1);
+}
+.Areas3:hover{
+    box-shadow: 2px solid black;
+    transition: all 1.3s ease;
+    transform: scale(1.1);
+}
+.Areas4:hover{
+    box-shadow: 2px solid black;
+    transition: all 1.3s ease;
+    transform: scale(1.1);
+}
+
+
+.sobreposiçao:hover{
+    box-shadow: 2px solid black;
+    transition: 1.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.footer{
+    position: relative;
+    left: 30em;
+    bottom: 1em;
+    background-color: bisque;
+    box-shadow: 0 16px 32px black;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    width: 25%;
+    border-radius: 0px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.7s ease-in-out;
+}
+
+.footer:hover{
+    box-shadow: 2px solid black;
+    transition: 1.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+.L4{
+    font-size: medium;
+    text-align: start;
+    line-height: 1.5;
+}
+/* Carrossel das Imagens das Atvidades Favoritas */
+
+.carousel {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    left: 13px;
+    margin-bottom: 20px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Três imagens */
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.8s ease;
+}
+/* Caixa de conteúdo do popup */
+.popup-content {
+    background-color: beige;
+    padding: 100px;
+    border-radius: 17px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    font-weight: 900;
+    font-size: 2em;
+}
+ 
+/* Exibir o popup */
+.popup-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+.btn{
+    position: relative;
+    top: 4em;
+    box-shadow: 0 2px 4px black;
+    border-radius: 12px;
+    transition: transform 0.8s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.8);
+    transition: 1s ease;
+    box-shadow: 0 8px 16px black;
+}

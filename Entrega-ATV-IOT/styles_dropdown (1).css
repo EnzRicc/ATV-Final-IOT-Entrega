@@ -1,0 +1,48 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+ 
+.dropbtn {
+  color: black;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%; /* Adapta ao tamanho do dropdown */
+  text-align: center;
+
+  background-color: rgb(100, 100, 100); /* Cor inicial */
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra, como se o botão estivesse elevado */
+  transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+  animation: changeColor 10s infinite; /* Animação que vai durar 5 segundos e se repetir infinitamente */
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0; /* Alinha abaixo do botão */
+  width: 675px; /* Igual à largura do botão */
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+ 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+.dropdown:hover .dropbtn {
+  background-color: darkgray; /* Cor ao passar o mouse */
+}
+
+@keyframes changeColor {
+  0% { background-color: rgb(100, 100, 100); }
+  25% { background-color: rgb(200, 100, 100); }
+  50% { background-color: rgb(100, 200, 100); }
+  75% { background-color: rgb(100, 100, 200); }
+  100% { background-color: rgb(100, 100, 100); }
+}
+ 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TODOS.CSS">
+    <link rel="stylesheet" href="reset_2.CSS">
+    <!-- Google Fonts - Fonte Poppins, diretamente linkada ao Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<body>
+    <section class="Cabeçalho">
+         <div class="Título">
+            <div class="sobreposiçao">
+                <a href="" class="Título1"> Site de Enzo Lima </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="Senac">
+        <img class="sena" src="Senac.png" alt="Imagem 1">
+    </div>
+
+    <section class="Introduçao">
+        <div class="titulo">
+            <h1 class="L1"> Informações Pessoais</h1>
+            <br>
+            <p class="L2"> Meu nome é Enzo Ricci Bonatto Batista Lima, nasci no dia 24/06/2007, tenho 17 anos, 
+                           sou torcedor do maior clube de São Paulo o SPFC.
+                           </p>
+        </div>
+    </section>
+
+    <section class="Gosto">
+        <div class="Gost">
+            <h1 class="L1"> Gostos Pessoais</h1>
+            <br>
+            <p class="L2"> Tenho variados gostos, entre eles estão:
+                           <br>
+                           <li class="L2"> Esportes, pricipalmente o basquete; </li>
+                           <li class="L2"> Culinária, gosto muito de cozinhar; </li>
+                           <li class="L2"> Música, meu gênero favorito é Trap; </li>
+                           <li class="L2"> Moda, pricipalmente a parte de estilismo;</li>
+                           <li class="L2"> Filosofia, Aristóteles, Nieztsche e Kant;</li>
+            </p>
+        </div>
+    </section>     
+
+    <section class="Botoes">
+        <div class="Areasbtn">
+            <div class="Areas">
+                <a href="CHS.HTML">CHS</a>
+            </div>
+
+            <div class="Areas1">
+                <a href="CNT.HTML">CNT</a>
+            </div>
+
+            <div class="Areas2">
+                <a href="IOT.HTML">IOT</a>
+            </div>
+
+            <div class="Areas3">
+                <a href="LGC.HTML">LGC</a>
+            </div>
+
+            <div class="Areas4">
+                <a href="MAT.HTML">MAT</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Refle">
+        <div class="Quadra">
+            <h1 class="L1"> Reflexão do Ensino Médio</h1>
+            <br>
+            <p class="L2"> Meu Ensino Médio foi exaustivo, porém muito importante para minha formação, tanto acadêmica
+                           quanto como pessoa, tive muitos momentos de felicidade, de estresse, de tristeza, pressão.
+                           Todos esses momentos foram importantes para eu me tornar uma pessoa mais responsável e me desenvolver
+                           para me tornar um adulto melhor, além de me preparar para os desafios que virei enfrentar ao longo da minha
+                           grande caminhada da vida, que pouco ainda desfrutei. Com isso, vejo que o Ensino Médio foi uma das fazes, se não
+                           à mais, importante até o momento em minha vida. Agradeço a todos que estiveram presente nesta caminhada comigo, tanto
+                           professores quanto alunos, que muitos deles se tornaram não só alunos e professores, como colegas e amigos que levarei pra vida. 
+                           </p>
+        </div>
+    </section>
+    
+    <section class="Atv">
+        <div class="Quadra1">
+            <h1 class="L1"> Atividades Favoritas</h1>
+            <br>
+            <div id="carousel-ATV" class="carousel">
+                <div class="carousel-images">
+                    <img class="ATV" src="MILL2.png" alt="Imagem 2">
+                    <img src="Iluminismo1.png" alt="Imagem 3">
+                    <img src="WAR1.png" alt="Imagem 4">
+                </div>
+                <button class="prev-btn" onclick="moveSlide(-1, 'carousel-ATV')">❮</button>
+                <button class="next-btn" onclick="moveSlide(1, 'carousel-ATV')">❯</button>
+            </div>
+            <br>
+            <div class="desc">
+                <p class="L3"> Tais atividades foram as minhas favoritas por terem me feito aprender sobre assuntos que tenho
+                               interrese e me fizeram engajar em cada uma de suas especialidades, fazendo com que eu aprendesse
+                               e me esforçasse por gostar dos assuntos abordados, o que fez com que eu aprofundasse meu conhecimento
+                               enquanto eu me divertia por me enteresar pelos assuntos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>
+            <b class="L4">
+                © 2024 Enzo Ricci Bonatto Batista Lima. Todos os direitos reservados.
+            </b>
+        </footer>
+    </section>
+
+    <!-- Popup de Boas-Vindas -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <p>Olá! Bem-vindo à minha página.</p>
+            <p>Aproveite o conteúdo!</p>
+            <button onclick="fecharPopup()" class="btn btn-danger">Fechar</button>
+        </div>
+    </div>
+    
+<script src="Scrips.JS"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
